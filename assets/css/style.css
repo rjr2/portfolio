@@ -2,17 +2,41 @@
     box-sizing: border-box;
 }
 
-h1 {
-    color: coral;
-}
-
 body {
     font-family: 'Courier New', Courier, monospace;
     margin: 2%;
-    background-image: url("./assets/images/kayakbackground.jpeg") ;
+    background-image: url("../images/kayakbackground.jpeg") ;
     background-color: #cccccc;
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2%;
+    background-color: rgb(88, 107, 70);
+    opacity: 0.75;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(36, 43, 30);
+    border-radius: 20%;
+}
+
+h1 {
+    color: rgb(36, 43, 30);
+    margin: 5%;   
+}
+
+li {
+    display: inline;
+}
+
+/* *!*!*!*!* CLASS SELECTORS BELOW THIS LINE *!*!*!*!* */
+
+.ilink {
+  
 }
