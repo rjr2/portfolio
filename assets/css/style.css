@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: coral;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 2%;
+    background-image: url("./assets/images/kayakbackground.jpeg") ;
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
