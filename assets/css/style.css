@@ -14,6 +14,11 @@ html {
     font-size: 65%;
 }
 
+a{
+  display: block;
+  text-decoration: none;
+}
+
 h1 {
     font-size: 4rem;
   }
@@ -44,7 +49,13 @@ h1 {
   }
 
 h1, h2, h3, h4, h5, h6, p {
-    color: var(--fifth)
+    color: var(--fifth);
+    margin: 0;
+    padding: 0;
+}
+
+img{
+  width: 100%;
 }
 
 body {
@@ -76,7 +87,6 @@ aside {
 .portrait {
     position:relative;
     display: flex;
-    max-height: 200px;
     float: left;
     margin: 2%;
 }
@@ -88,26 +98,36 @@ li {
 
 /* *!*!*!*!* CLASS SELECTORS BELOW THIS LINE *!*!*!*!* */
 
-.toobig {
-    max-height: 200px;
-}
-
 .icon {
-    max-height: 50px;
+    max-width: 50px;
 }
 
 .fixed {
-    flex-wrap: wrap;
     position: relative;
-    margin-top: -25%;
-    margin-left: 5%;
+    bottom: 4rem;
+    margin-left: 1rem;
     background-color: var(--tertiary);
     width: fit-content;
 }
 
+.row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
 .card-column {
     flex: 1 0 100%;
-    padding: 1.5rem;
+    padding: .5rem;
     transition: flex-basis 500ms linear;
-    margin-bottom: 1.5rem;
   }
+
+.full{
+  flex-basis: 100%;
+}
+
+.half{
+  flex-basis: 50%;
+}
