@@ -9,8 +9,9 @@
         <title>Ryan Radford</title>
     </head>
     <body>
-        <header>
+        <header class="maintile">
             <h1>Ryan Radford</h1>
+            <img class="portrait" src="./assets/images/portrait.png" alt="Portrait"/>
             <nav>
                 <ul class="navlinks">
                     <li class="ilink"><a href="#aboutme">About Me</a></li>
@@ -20,12 +21,9 @@
             </nav>
         </header>
         <main>
-            <div>
-                <span>Image Placeholder</span>
-            </div>
-            <section id="aboutme">
+            <section id="aboutme" class="maintile">
                 <aside>
-                    <h2>About Me</h2>
+                    <h3>About Me</h3>
                 </aside>
                 <article>
                     <p>Hello! I am an aspiring full stack developer with a long career of public service. Programming has been a passion of mine for a very long time and I finally have the oppurtunity to pursue it. I come from a family that has been heavily involved with hardware and software design. 
@@ -34,58 +32,56 @@
                     </p>
                 </article>
             </section>
-            <section id="work">
+            <section id="work" class="maintile row justify-center">
                 <aside>
-                    <h2>Work</h2>
+                    <h3>Portfolio</h3>
                 </aside>
-                <div>
-                    <article class="featured">
+                <div class="row justify-center">
+                    <article class="card-column">
                         <a href="https://rjr2.github.io/CodeRefactor/">
-                        <img src="./assets/images/refactor.jpg" alt="four people having a meeting">
+                        <img  class="toobig" src="./assets/images/refactor.jpg" alt="four people having a meeting">
                         </a>
-                        <div>
-                            <h4>Code Refactor</h4>
+                        <div class="fixed">
+                            <h5>Code Refactor</h5>
                         </div>
                     </article>
-                    <article>
-                        <img src="./assets/images/dog.jpeg" alt="A dog sitting">
-                        <div>
-                            <h4>Coming Soon!</h4>
+                    <article class="card-column">
+                        <img class="toobig" src="./assets/images/dog.jpeg" alt="A dog sitting">
+                        <div class="fixed">
+                            <h5>Coming Soon!</h5>
                         </div>
                     </article>
-                    <article>
-                        <img src="./assets/images/dog.jpeg" alt="A dog sitting">
-                        <div>
-                            <h4>Coming Soon!</h4>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./assets/images/dog.jpeg" alt="A dog sitting">
-                        <div>
-                            <h4>Coming Soon!</h4>
+                    <article class="card-column">
+                        <img class="toobig" src="./assets/images/dog.jpeg" alt="A dog sitting">
+                        <div class="fixed">
+                            <h5>Coming Soon!</h5>
                         </div>
                     </article>
                 </div>
             </section>
-            <section id="contactme">
+            <section id="contactme" class="maintile">
                 <aside>
-                    <h2>Contact Me</h2>
+                    <h3>Contact Me</h3>
                 </aside>
                 <article>
                     <div>
-                        <a href="https://www.linkedin.com/in/ryan-radford-625493206"><img src="./assets/images/linkedin.png" alt="linkedin logo"></a>
-                    </div>
-                    <div> 
-                        <a href="https://github.com/rjr2"><img src="./assets/images/github.png" alt="GitHub logo"></a>
-                    </div>
-                    <div> 
-                        <a href="mailto:ryanradford@hotmail.com"><img src="./assets/images/email.png" alt="email icon"></a>
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/ryan-radford-625493206"><img src="./assets/images/linkedin.png" alt="linkedin logo" class="icon"></a>
+                            </li>
+                            <li>
+                            <a href="https://github.com/rjr2"><img src="./assets/images/github.png" alt="GitHub logo" class="icon"></a>
+                            </li>
+                            <li>
+                            <a href="mailto:ryanradford@hotmail.com"><img src="./assets/images/email.png" alt="email icon" class="icon"></a>
+                            </li>
+                        </ul>
                     </div>
                 </article>
             </section>
         </main>
-        <footer>
-            <h5>Thanks for visiting!</h5>
+        <footer class="maintile">
+            <h6>Thanks for visiting!</h6>
+            <h6>RyanRadford@hotmail.com</h6>
         </footer>
     </body>
 </html>
