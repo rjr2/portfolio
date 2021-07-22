@@ -1,7 +1,20 @@
+:root{
+  --pale-spring-bud: #ccd5aeff;
+  --light-goldenrod-yellow: #e9edc9ff;
+  --cornsilk: #fefae0ff;
+  --papaya-whip: #faedcdff;
+  --fawn: #d4a373ff;
+}
 
+body {
+  background-color: var(--pale-spring-bud);
+}
 
-header, nav, article, footer {
-  padding: 2%;
+header, nav, article, footer{
+  background: var(--cornsilk);
+  border: solid var(--light-goldenrod-yellow);
+  margin: 0.25% 1% 0.25% 1%;
+  padding: 4% 4% 4% 4%;
 }
 
 h3 {
@@ -11,4 +24,13 @@ h3 {
 .portrait{
   width: 100%;
   max-width: 300px;
+}
+
+a.portfolio:link, a.portfolio:visited{
+  text-decoration: none;
+  color: black;
+}
+
+.card:hover {
+  transform: scale(1.1);
 }
