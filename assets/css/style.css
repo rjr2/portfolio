@@ -50,3 +50,15 @@ a.portfolio:link, a.portfolio:visited{
 .card:hover {
   transform: scale(1.1);
 }
+
+#welcome {
+  display: none;
+}
+
+#portfolio {
+  display: none;
+}
+
+#contactme {
+  display: none;
+} 
