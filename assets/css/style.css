@@ -4,15 +4,31 @@
   --cornsilk: #fefae0ff;
   --papaya-whip: #faedcdff;
   --fawn: #d4a373ff;
+  /*From Photo*/
+  --lavender-gray: #C0BFD0ff;
+  --light-gray: #CFCFCFff;
+  --light-steel-blue: #B8C7DAff;
+  --khaki-web: #CFBBA9ff;
+  --cultured: #F2F6F7ff;
 }
 
 body {
-  background-color: var(--pale-spring-bud);
+  background-color: var(--cultured);
 }
 
-header, nav, article, footer{
-  background: var(--cornsilk);
-  border: solid var(--light-goldenrod-yellow);
+header {
+  background-image: url("background1.png");
+  background-position: 84% 52%;
+  background-size: inherit;
+  background-repeat:no-repeat; 
+  border: solid var(--light-steel-blue);
+  margin: 0.25% 1% 0.25% 1%;
+  padding: 4% 4% 4% 4%;
+}
+
+nav, article, footer{
+  background: var(--light-gray);
+  border: solid var(--light-steel-blue);
   margin: 0.25% 1% 0.25% 1%;
   padding: 4% 4% 4% 4%;
 }
