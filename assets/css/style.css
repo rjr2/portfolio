@@ -51,10 +51,6 @@ a.portfolio:link, a.portfolio:visited{
   transform: scale(1.1);
 }
 
-.btn{
-  justify-content: center;
-}
-
 #welcome {
   display: none;
 }
