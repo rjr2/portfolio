@@ -1,3 +1,5 @@
+
+//Button variables
 var welcButton = document.getElementById("welc");
 var portButton = document.getElementById("port");
 var ContButton = document.getElementById("cont");
